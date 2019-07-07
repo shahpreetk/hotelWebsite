@@ -58,9 +58,23 @@ p{
 }
 
 .bg-dark{
-
+    background: #333;
+    color: #fff;
 }
 
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary{
+    background: #f7c08a;
+    color: #333;
+}
+
+.clr{
+    clear: both;
+}
 #navbar{
     background: #333;
     color: #fff;
@@ -136,4 +150,26 @@ p{
     text-align: center;
     padding: 50px 30px;
     overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom:  30px;
+}
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
